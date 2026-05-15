@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F5FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#5E548E"
+            android:layout_marginBottom="35dp"/>
+
+        <!-- NAME -->
+        <EditText
+            android:id="@+id/etUserName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Farmer Name"/>
+
+        <!-- PHONE -->
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Mobile Number"
+            android:inputType="phone"
+            android:layout_marginTop="20dp"/>
+
+        <!-- VILLAGE -->
+        <EditText
+            android:id="@+id/etVillage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Village Name"
+            android:layout_marginTop="20dp"/>
+
+        <!-- PASSWORD -->
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="20dp"/>
+
+        <!-- BUTTON -->
+        <Button
+            android:id="@+id/btnCreateAccount"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Register"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="#8E7CC3"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="35dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F5FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <!-- ICON -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🐄"
+            android:textSize="70sp"
+            android:layout_marginTop="30dp"/>
+
+        <!-- TITLE -->
+        <TextView
+            android:id="@+id/tvWelcomeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Grama-Vaxi"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#5E548E"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <!-- SUBTITLE -->
+        <TextView
+            android:id="@+id/tvSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Village Animal Healthcare System"
+            android:textSize="18sp"
+            android:textColor="#7A6EA8"
+            android:layout_marginTop="8dp"
+            android:gravity="center"/>
+
+        <!-- REGISTER BUTTON -->
+        <Button
+            android:id="@+id/btnRegisterUser"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Register"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="#8E7CC3"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="40dp"/>
+
+        <!-- LOGIN BUTTON -->
+        <Button
+            android:id="@+id/btnLoginUser"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Login"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="#A48AD4"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"/>
+
+        <!-- INSTRUCTIONS -->
+        <TextView
+            android:id="@+id/tvInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Register your cattle\n\n• Track vaccination dates\n\n• Receive reminder notifications\n\n• Report sick animals"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:background="#EEE8FF"
+            android:padding="18dp"
+            android:layout_marginTop="35dp"/>
+
+        <!-- TUTORIAL BUTTON -->
+        <Button
+            android:id="@+id/btnTutorial"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="How to Use App"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="#7A6EA8"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="30dp"/>
+
+        <!-- FOOTER -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smart Livestock Healthcare for Villages"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:textColor="#6D6875"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
